@@ -1,0 +1,32 @@
+{
+  "name": "socketio-promises",
+  "version": "1.0.0",
+  "description": "A socket.io wrapper that makes many of the functions promise based",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "run": "node dist/index.js",
+    "start": "npm-run-all build run",
+    "build-tests": "npm-run-all build test",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DisStreamChat/socketio-wrapper.git"
+  },
+  "keywords": [
+    "socketio",
+    "websockets",
+    "promises"
+  ],
+  "author": "David Snyder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DisStreamChat/socketio-wrapper/issues"
+  },
+  "homepage": "https://github.com/DisStreamChat/socketio-wrapper#readme",
+  "dependencies": {
+    "@types/socket.io": "^2.1.11"
+  }
+}
