@@ -28,5 +28,8 @@
   "homepage": "https://github.com/DisStreamChat/socketio-wrapper#readme",
   "dependencies": {
     "@types/socket.io": "^2.1.11"
+  },
+  "devDependencies": {
+    "socket.io": "^2.3.0"
   }
 }
