@@ -24,7 +24,11 @@ class PromiseSocket {
 				} else resolve(null);
 			})
 		);
-	}
+    }
+    
+    get socket(){
+        return this._socket
+    }
 }
 
-export default PromiseSocket;
+exports = PromiseSocket;
